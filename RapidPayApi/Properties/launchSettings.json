@@ -1,0 +1,27 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:54682",
+      "sslPort": 44343
+    }
+  },
+  "profiles": {
+    "local": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5095",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ConnectionStrings:DefaultConnection": "Server=127.0.0.1;Database=RapidPay;User Id=SA;Password=l0calpass.;MultipleActiveResultSets=true;TrustServerCertificate=true",
+        "Settings__Username": "admin",
+        "Settings__Password": "Pa$$w0rd!",
+        "Settings__JwksKeySet": "{\n    \"keys\": [\n        {\n            \"p\": \"1sNIQNxPIV_uyWpkSU3JHzDmD-rd7MR44kAsl7QXTODH5S5V4DsiYOk95kvU9-3EuaG6Ji5IIqU89HfilmpsrYp1aTqWMQSAb_b247TodeeGJc48EKD5Tb0nvs_T9c9xOZrvnu2Ya2V3qb2TxIulQXLwM57JObxfLFigiuns_nc\",\n            \"kty\": \"RSA\",\n            \"q\": \"zcSdw5Agpd8qwXDwUKGT2qX7_QAfvW2mZ3_6N7QnQIr1c2tciDNB4XPSLfJh4QaIlNJM-8H5J1y11MCeVvjs847EsEkaDHpitDQLYGfXZcNHwqfoJFcaGMEVdgAM1f4fC8Ri423p-irBNofP1qAl9PlamG1droC7gZqdEv-88F8\",\n            \"d\": \"bRVJKxg4a2Of-cyZZ62RFOTHqC1o8AKZAi0cJyuOZf98fXcVg-p_e4NF8qt-TS7NrFC7NRk-FupphE_2hD34E1oSwOXuruJLKPoKuEbmmQmc-cQ_P8gpVq9CVa70HhRoIvQZgZBANr9ZjooKa0Vv6lFlWeguZQVPskSe5C-_FYKmuwy_lhtP3CaTErFxwJMSzOqcGeGGVNWCu3FuXKQ1BUyLDJmzzdwNkqSNcVJkGxehydsETFQR9NJLPfCM6_vQCVXHn_m-fqmSpf1CtIyP5ZDmVnfmRM1uO-yOrXbz1K65L0EcLsk4zZDkGTfj6VDjIaogJsye2cm-Mt6XLR6u-Q\",\n            \"e\": \"AQAB\",\n            \"use\": \"sig\",\n            \"kid\": \"eXjCuPtgVfV1yPawkwb0aAYkU4Y1Ip4WPaeJB7hZIW8\",\n            \"qi\": \"VYwo8aBi4xfVbPulh8CKSPrQIO92hRdr8a85yT0EwmmoS_koHylVYwrY7sJrRmIIIWWhxrQKV4lgnsJpEAd42yeefidVVn2DsYI-EqfO9Xx-zrrIcdHIcZIB8HOF0X3mwd7pVbbpUhFWwy23y5IB86i-dr2T8yqjDmL0Xm1Tl64\",\n            \"dp\": \"SqpwN2Sg-kiBG3Oq1DWABCEbC1OrvoJ8SKTpHAEXzLmlpc9bOe81P5430BZzP5Nhvuw0bMvQdoMeUxxPId50VE18Do644ufew46IPZiK7VsGL6SpC1r78gQeil91INPzWIS-ZHHUeRo45UGs2zt1w_BzBG9jJHiSWjeh8UntBHc\",\n            \"alg\": \"RS256\",\n            \"dq\": \"EYg_KPqOzZNGQVUuJLCfuHGMFvJ7wdgl5Yux9i0Taxxr7XmoWLKFWoBT2DZewJ2d5ZBFnu3YHNJ5a7c9xotPJTF08NBJt-Z1ooUMsxol8DXDV4KW9QG254UMHxHCBjmwy3_gLSCgXwBllg_cVZ0vnr_gSDyJTuUJFPHnkEbaAmE\",\n            \"n\": \"rJ9SuRUNFwhQ_HroYEbFNF5h3wWudm8y5zNbmVYLKTepPhi4Og58VZ5EdBKM6tQ9iZPe2pR_vDRfSS-A70ahsOo96ErExijiddnrkORDTbovt5wptnxz284PVf4OyuErCBMRCLoMh6TQB-894oBF7GaC_mPSCrqvbYzbxOWGwHWI33_RCTeNIyAEC-IPp8MQwqD6Y41fkBFEC3fC_seFCSRrFw_jCDX4ASttLnNPrDY-GzFKjyVsunRzALh6vLn_rq6HFfzn6Mn0Ipn58he5daxXjR0A_LKazyjcTkAGEUEV2VWSXeqdMHHBiZIfY1ugkAETVotz-telu4m8ZeX-KQ\"\n        }\n    ]\n}"
+      }
+    }
+  }
+}
